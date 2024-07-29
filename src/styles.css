@@ -206,6 +206,30 @@ div.card {
   background-color: white;
 }
 
+div.card-header.grid {
+  grid-gap: 0;
+}
+
+div.card-header img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+div.image-gallery {
+  margin-bottom: 30px;
+}
+
+div.image-gallery img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -251,5 +275,11 @@ div.card {
 
   section {
     padding: 30px;
+  }
+  div.card-header img {
+    display: None;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
